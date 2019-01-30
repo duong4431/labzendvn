@@ -173,29 +173,29 @@ body{
     width:220px;
     margin-left:480px;    
 }
-.main>.right>.col2>#box-category{
+.box-category{
     margin-bottom:5px;
 }
-.main>.right>.col2>#box-category>.content{
+.box-category>.content{
     
 }
-.main>.right>.col2>#box-category>.content>ul{
+.box-category>.content>ul{
     margin-top:-8px;
 }
-.main>.right>.col2>#box-category>.content>ul>li{
+.box-category>.content>ul>li{
     border-bottom:1px solid #d2d2d2;
     padding:5px;
 }
-.main>.right>.col2>#box-category>.content>ul>li:last-child{
+.box-category>.content>ul>li:last-child{
     border-bottom:none;
 }
-.main>.right>.col2>#box-category>.content>ul>li.active{
+.box-category>.content>ul>li.active{
     background:url(../images/down-arrow.jpg) right center no-repeat;
 }
-.main>.right>.col2>#box-category>.content>ul>li>a{
+.box-category>.content>ul>li>a{
     color:#2a0055;
 }
-.main>.right>.col2>#box-category>.content>ul>li>a:hover{
+.box-category>.content>ul>li>a:hover{
     color:#00c;
 }
 .footer{
@@ -235,6 +235,52 @@ body{
 }
 .footer>.copyright>.right{    
     float:right;
+}
+/*-------------------BreadCrumb---------------------*/
+.breadcrumd{
+    background:white;
+    border-radius:5px;
+    border:1px solid #d2d2d2;
+    padding:10px;
+}
+.breadcrumd>a{
+    color:#447f60;
+}
+.breadcrumd>a:hover{
+    text-decoration:underline;
+}
+.breadcrumd>.active{
+    color:#2a0055;
+    text-decoration:underline;
+}
+/*-------------------Category Product---------------------*/
+.cateProduct{
+    background:white;
+    border-radius:5px;
+    border:1px solid #d2d2d2;
+    padding:10px 0px 10px 13px;    
+    margin-top:10px;
+}
+.cateProduct>.box-cate{
+    width:158px;
+    height:160px;
+    border:1px solid #d2d2d2;    
+    margin:0px 8px 10px 0px;
+    border-radius:5px;
+    display:inline-block;
+    padding-top:15px;
+    text-align:center;
+}
+.cateProduct>.box-cate>.image>img{
+    display:block;
+    margin:0 auto;    
+}
+.cateProduct>.box-cate>a{
+    float:left;color:black;    
+    margin-left:30px;
+}
+.cateProduct>.box-cate>a:hover{
+    text-decoration:underline;
 }
 /*-------------------LINE---------------------*/
 .line-h-45{
